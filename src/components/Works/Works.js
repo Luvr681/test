@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { works } from '../../localDB/works'
 import { Work } from './Work/Work'
@@ -38,16 +39,16 @@ export const Works = ({ setHidden }) => {
 
           <div className="works__categories">
             <div className="works__category">
-              <a href="#" className="works__btn">ALL</a>
+              <Link to="/" className="works__btn">ALL</Link>
             </div>
             <div className="works__category">
-              <a href="#" className="works__btn">WEB DESIGN</a>
+              <Link to="/" className="works__btn">WEB DESIGN</Link>
             </div>
             <div className="works__category">
-              <a href="#" className="works__btn">UI/UX DESIGN</a>
+              <Link to="/" className="works__btn">UI/UX DESIGN</Link>
             </div>
             <div className="works__category">
-              <a href="#" className="works__btn">MOCKUPS</a>
+              <Link to="/" className="works__btn">MOCKUPS</Link>
             </div>
           </div>
 
