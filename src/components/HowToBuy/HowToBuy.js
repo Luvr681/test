@@ -26,7 +26,7 @@ export const HowToBuy = ({ color }) => {
             </div>
             <Link className={"how__to__buy__btn " + color}>Оставить заявку</Link>
           </div>
-          <div className={"how__to__buy__image__block " + color}><img className="how__to__buy__image" src={flowers} alt="image" /></div>
+          <div className={"how__to__buy__image__block " + color}><img className="how__to__buy__image" src={flowers} /></div>
         </div>
       </div>
     </section>  

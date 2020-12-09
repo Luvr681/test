@@ -2,7 +2,6 @@ import React from 'react'
 
 import { works } from '../../localDB/works'
 import { Work } from './Work/Work'
-// import { WorkModal } from './WorkModal/WorkModal'
 import { ModalWindow } from '../ModalWindow/ModalWindow'
 
 import './Works.css'
@@ -39,16 +38,16 @@ export const Works = ({ setHidden }) => {
 
           <div className="works__categories">
             <div className="works__category">
-              <a className="works__btn">ALL</a>
+              <a href="#" className="works__btn">ALL</a>
             </div>
             <div className="works__category">
-              <a className="works__btn">WEB DESIGN</a>
+              <a href="#" className="works__btn">WEB DESIGN</a>
             </div>
             <div className="works__category">
-              <a className="works__btn">UI/UX DESIGN</a>
+              <a href="#" className="works__btn">UI/UX DESIGN</a>
             </div>
             <div className="works__category">
-              <a className="works__btn">MOCKUPS</a>
+              <a href="#" className="works__btn">MOCKUPS</a>
             </div>
           </div>
 

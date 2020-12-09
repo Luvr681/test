@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Example = ({ example }) => {
   return (
@@ -15,7 +16,7 @@ export const Example = ({ example }) => {
           <p>{ example.text }</p>
         </div>
         <div className="example__btn">
-          <a className="example__link">Подробнее</a>
+          <Link to="/contacts" className="example__link">Подробнее</Link>
         </div>
       </div>
     </div>
