@@ -1,0 +1,91 @@
+.flower__pots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1000px;
+  background: #222;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.clip.clip1 {
+  max-height: 500px;
+  max-width: 1000px;
+  background: url('../../assets/flowers/stone__seria.webp');
+  clip-path: polygon(0 0, 31% 0, 12% 100%, 0% 100%);
+}
+
+.clip.clip2 {
+  max-height: 500px;
+  max-width: 1000px;
+  background: url('../../assets/flowers/steel__seria.webp');
+  clip-path: polygon(31% 0, 80% 0, 72% 100%, 12% 100%);
+}
+
+.clip.clip3 {
+  max-height: 500px;
+  max-width: 1000px;
+  background: url('../../assets/flowers/wood__seria.webp');
+  clip-path: polygon(80% 0, 100% 0, 100% 100%, 72% 100%);
+}
+
+.clip1:hover .clip2, .clip3 {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+}
+
+.clip2:hover .clip1, .clip3 {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+}
+
+.clip3:hover .clip2, .clip1 {
+  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+}
+
+.clip1:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 1;
+}
+
+.clip2:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 1;
+}
+
+.clip3:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 1;
+}
+
+.flower__content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  padding: 20px;
+  background: #fff;
+  opacity: 0;
+  bottom: -100px;
+}
+
+.flower__title {
+
+}
+
+.flower__text {
+
+}
+
+.clip:hover .flower__content {
+  opacity: 1;
+  bottom: 0;
+}

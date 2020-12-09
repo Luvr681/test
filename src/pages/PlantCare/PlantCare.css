@@ -1,0 +1,34 @@
+.plant__care {
+	padding-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 100vh;
+	background: url('../../assets/intro__background.png') center no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, .95);
+	position: relative;
+}
+
+.plant__care__inner {
+	text-align: center;
+	width: 80%;
+}
+
+.plant__care__title {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 70px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.plant__care__subtitle {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 108px;
+}

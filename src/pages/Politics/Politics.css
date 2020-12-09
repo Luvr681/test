@@ -1,0 +1,14 @@
+.politics__text {
+  max-width: 80%;
+  margin: 0 auto; 
+}
+
+.politics__text p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.politics__text hr {
+  height: 1px;
+  background-color: #D4A243;
+}

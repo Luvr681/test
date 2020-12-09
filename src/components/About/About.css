@@ -1,0 +1,38 @@
+/*About======================================================*/
+.about {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.about__item {
+	max-width: 255px;
+	text-align: center;
+	margin-right: 150px;
+}
+
+.about__item:last-child {
+	margin-right: 0;
+}
+
+.about__title {
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.about__text {
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.about__img  {
+	max-width: 62px;
+	margin: 62px;
+}

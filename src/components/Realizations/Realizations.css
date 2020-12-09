@@ -1,0 +1,45 @@
+.realizations {
+	width: 100%;
+	text-align: center;
+}
+
+.realization__step {
+	border: 1px solid;
+	border-radius: 12px;
+	overflow: hidden;
+
+	margin: 0 auto;
+	max-width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.realization__step__image__block {
+	max-width: 50%;
+}
+
+.realization__step__img {
+	width: 100%;
+}
+
+.realization__step__description {
+	max-width: 50%;
+	padding: 10px;
+}
+
+.realization__step__title {
+	font-family: 'Sansita Swashed', cursive;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.realization__step__text {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}

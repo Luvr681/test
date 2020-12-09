@@ -1,0 +1,143 @@
+/*Contacts======================================================*/
+.contacts {
+}
+
+.contacts__inner {
+}
+
+.contacts__outs {
+	width: 100%;
+	min-width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contacts__out {
+	text-align: center;
+	margin-right: 150px;
+}
+
+.contacts__out:last-child {
+	margin-right: 0;
+}
+
+.contact__img {
+	margin: 0 auto;
+	width: 105px;
+	height: 105px;
+	background: #D4A243;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.contact__icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	transform: translate3d(-50%, -50%, 0);
+	filter: invert(100%);
+}
+
+.contact__info {
+	margin: 0 auto;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.contacts__form {
+	width: 100%;
+	max-width: 1031px;
+	margin: 0 auto;
+	margin-top: 85px;
+}
+
+.contacts__person {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact__name {
+	border-radius: 10px;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px 35px;
+	margin-right: 30px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	border: 2px solid #fff;
+}
+
+.contact__mail:hover {
+	border-color: #D4A243;
+}
+
+.contact__name:hover {
+	border-color: #D4A243;
+}
+
+.contact__mail {
+	border-radius: 10px;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px 35px;
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	border: 2px solid #fff;
+}
+
+.contacts__msg {
+	margin: 0 auto;
+
+	width: 100%;
+	display: block;
+
+	max-width: 997px;
+	min-height: 320px;
+
+	padding: 15px;
+	margin-top: 30px;
+
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+
+	border: 2px solid #fff;
+	resize: none;
+	border-radius: 10px;
+
+  margin-bottom: 50px;
+}
+
+.contacts__msg:hover {
+	border-color: #D4A243;
+}
+
+.contacts__btn {
+  float: right;
+	padding: 20px 64px;
+	border-radius: 10px;
+
+	color: #212121;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.contacts__btn:hover {
+	background-color: #D4A243;
+	color: #fff;
+}

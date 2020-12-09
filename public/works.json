@@ -1,0 +1,39 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "imageUrl": "https://raw.githubusercontent.com/Luvr681/Avenir-photos/master/works/Layer_2.png?token=AOYSFDCHYIC5GZJV3GJPNT27VZFWC",
+      "workTitle": "Hand Watch",
+      "workDescription": "ui/ux design"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://raw.githubusercontent.com/Luvr681/Avenir-photos/master/works/Layer_2.png?token=AOYSFDCHYIC5GZJV3GJPNT27VZFWC",
+      "workTitle": "Hand Watch",
+      "workDescription": "ui/ux design"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://raw.githubusercontent.com/Luvr681/Avenir-photos/master/works/Layer_2.png?token=AOYSFDCHYIC5GZJV3GJPNT27VZFWC",
+      "workTitle": "Hand Watch",
+      "workDescription": "ui/ux design"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://raw.githubusercontent.com/Luvr681/Avenir-photos/master/works/Layer_2.png?token=AOYSFDCHYIC5GZJV3GJPNT27VZFWC",
+      "workTitle": "Hand Watch",
+      "workDescription": "ui/ux design"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://raw.githubusercontent.com/Luvr681/Avenir-photos/master/works/Layer_2.png?token=AOYSFDCHYIC5GZJV3GJPNT27VZFWC",
+      "workTitle": "Hand Watch",
+      "workDescription": "ui/ux design"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://raw.githubusercontent.com/Luvr681/Avenir-photos/master/works/Layer_2.png?token=AOYSFDCHYIC5GZJV3GJPNT27VZFWC",
+      "workTitle": "Hand Watch",
+      "workDescription": "ui/ux design"
+    }
+}

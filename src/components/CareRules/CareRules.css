@@ -1,0 +1,44 @@
+.care__rules {
+	margin: 50px 0;
+	padding-left: 40px;
+	padding-right: 15px;
+}
+
+.care__rules__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.care__rules__info {
+	text-align: center;
+	margin-right: 50px;
+}
+
+.care__rules__title {
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.care__rules__subtitle {
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.care__rules__text {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.care__rules__img__block {
+}
+
+.care__rules__img {
+}

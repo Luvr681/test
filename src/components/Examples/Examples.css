@@ -1,0 +1,56 @@
+.examples {
+	background-color: #ccc;
+}
+
+.example__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+}
+
+.example__img__block {
+
+}
+
+.example__img {
+
+}
+
+.example__info {
+	padding: 100px;
+	text-align: center;
+	color: #fff;
+}
+
+.example__title {
+	font-family: 'Sansita Swashed', cursive;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.example__subtitle {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.example__text {
+	font-size: 15px;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+
+.example__btn {
+	cursor: pointer;
+}
+
+.example__link {
+	padding: 10px 20px;
+	background-color: #ccc;
+	max-width: 40px;
+}
+
+.example__btn:hover .example__link {
+	background-color: #fff;
+}

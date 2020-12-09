@@ -1,0 +1,61 @@
+/*Intro======================================================*/
+.intro {
+	padding-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 100vh;
+	background: url('../../assets/intro__background.png') center no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, .95);
+	position: relative;
+}
+
+.intro__inner {
+	margin-right: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.intro__title {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 60px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.intro__subtitle {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 108px;
+}
+
+.intro__get__started {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro__btn {
+	border: 3px solid #ffffff;
+	padding: 28px 35px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.intro__btn:first-child {
+	margin-right: 25px;
+}
+
+.intro__btn:hover {
+	border-color: #D4A243;
+	background-color: #D4A243;
+}

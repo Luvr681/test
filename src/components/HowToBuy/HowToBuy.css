@@ -1,0 +1,72 @@
+.how__to__buy__inner {
+	display: flex;
+	justify-content: center;
+}
+
+.how__to__buy__info {
+	max-width: 40%;
+	text-align: center;
+	margin-right: 60px;
+	text-align: left;
+	color: #fff;
+	padding-top: 100px;
+}
+
+.how__to__buy__title {
+	font-family: 'Sansita Swashed', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.how__to__buy__subtitle {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.how__to__buy__text {
+	font-size: 15px;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+
+.how__to__buy__btn {
+	color: #000;
+	font-family: "Open Sans";
+	font-size: 17px;
+	font-weight: 400;
+	background: #fff;
+	padding: 15px 20px;
+	border-radius: 30px;
+}
+
+.how__to__buy__btn:hover {
+	opacity: 0.7;
+}
+
+.how__to__buy__image__block {
+	background-color: #fff;
+	border-radius: 12px; 
+	transition: all .2s linear;
+}
+
+.how__to__buy__image {
+	border-radius: 12px; 
+}
+
+.how__to__buy__image__block:hover .how__to__buy__image {
+	transform: translate3d(-15px, -15px, 0);
+}
+
+.how__to__buy__image__block.dark {
+	background-color: #CFA95E;
+}
+
+.dark {
+	color: #000;
+}
+
+.how__to__buy__btn.dark {
+	color: #fff;
+	background: #CFA95E;
+}

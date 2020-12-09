@@ -1,0 +1,74 @@
+/*Team======================================================*/
+.team {
+}
+
+.team__inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.person {
+	text-align: center;
+	margin-right: 30px;
+}
+
+.person:last-child {
+  margin-right: 0;
+}
+
+.person__img {
+	margin-bottom: 30px;
+}
+
+.person__name {
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+.person__job {
+	color: #212121;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.person__social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.person__social__icon {
+	min-width: 50px;
+	min-height: 50px;
+	margin-right: 30px;
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 10px;
+	position: relative;
+}
+
+.person__social__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	transform: translate3d(-50%, -50%, 0);
+}	
+
+.person__social__icon:hover .person__social__img {
+  filter: invert(100%);
+}
+
+.person__social__icon:hover {
+	background-color: #D4A243;
+}
+
+.person__social__icon:hover #facebook {
+	fill: #fff;
+}
+
