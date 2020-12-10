@@ -1,6 +1,6 @@
 import React from 'react'
 
-import image from '../../assets/care/bg.webp'
+import image from '../../assets/care/bg.jpg'
 
 import './CareRules.css'
 

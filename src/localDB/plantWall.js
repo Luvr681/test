@@ -1,4 +1,4 @@
-import walls from '../assets/green__walls/walls.webp'
+import walls from '../assets/green__walls/walls.jpg'
 
 export const plantWall = [
   {

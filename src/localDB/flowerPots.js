@@ -1,6 +1,6 @@
-import steel__seria from '../assets/flowers/steel__seria.webp'
-import stone__seria from '../assets/flowers/stone__seria.webp'
-import wood__seria from '../assets/flowers/wood__seria.webp'
+import steel__seria from '../assets/flowers/steel__seria.jpg'
+import stone__seria from '../assets/flowers/stone__seria.jpg'
+import wood__seria from '../assets/flowers/wood__seria.jpg'
 import instagram from '../assets/team/icons/instagram.png'
 
 export const flowerPots = [

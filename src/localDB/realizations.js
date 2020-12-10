@@ -1,6 +1,6 @@
-import step_1 from '../assets/realization/1.webp'
-import step_2 from '../assets/realization/2.webp'
-import step_3 from '../assets/realization/3.webp'
+import step_1 from '../assets/realization/1.jpg'
+import step_2 from '../assets/realization/2.jpg'
+import step_3 from '../assets/realization/3.jpg'
 
 export const realizations = [
   {

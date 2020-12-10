@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import flowers from '../../assets/flowers/flowers__on__balcony.webp'
+import flowers from '../../assets/flowers/flowers__on__balcony.jpg'
 
 import './HowToBuy.css'
 

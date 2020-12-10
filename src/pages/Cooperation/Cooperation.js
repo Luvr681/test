@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../../assets/logo.webp'
+import logo from '../../assets/logo.jpg'
 import { cooperation } from '../../localDB/cooperation'
 import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'

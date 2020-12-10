@@ -1,6 +1,6 @@
-import supply_1 from '../assets/supply/1.webp'
-import supply_2 from '../assets/supply/2.webp'
-import supply_3 from '../assets/supply/3.webp'
+import supply_1 from '../assets/supply/1.jpg'
+import supply_2 from '../assets/supply/2.jpg'
+import supply_3 from '../assets/supply/3.jpg'
 
 export const supplyFlowers = [
   {

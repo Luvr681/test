@@ -318,33 +318,8 @@ body.scroll__hidden {
 }
 
 @media(max-width: 1200px) {
-  .header {
-    width: 60%;
-    background-color: #000;
-  }
-}
-
-@media(max-width: 767px) {
   .container {
-    width: 760px;
-  }
-
-  .header {
-    width: 60%;
-    background-color: #000;
-  }
-}
-
-@media(max-width: 480px) {
-  .header {
-    width: 60%;
-    background-color: #000;
-  }
-}
-
-@media(max-width: 360px) {
-  .header {
-    width: 60%;
-    background-color: #000;
+    width: 100%;
+    max-width: calc(1200 + (1200 - 320) * ((100vw - 320px) / (1200 - 320)));
   }
 }

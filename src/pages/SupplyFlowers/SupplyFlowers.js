@@ -20,6 +20,7 @@ export const SupplyFlowers = () => {
 
           <div className="supply__flowers">
             <div className="container">
+
               {
                 supplyFlowers && supplyFlowers.map((supplyFlower, index) => {
                   return <SupplyFlower odd={(index + 1) % 2 !== 0} key={supplyFlower.id} supply={supplyFlower} />

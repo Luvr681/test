@@ -1,4 +1,4 @@
-import garden__inside from '../assets/Catalog/project.webp'
+import garden__inside from '../assets/Catalog/project.jpg'
 import green__walls from '../assets/Catalog/green__walls.jpg'
 import kashpo from '../assets/Catalog/kashpo.jpg'
 import flowers_1 from '../assets/Catalog/flowers_1.jpg'

@@ -1,5 +1,5 @@
-import walls from '../assets/green__walls/walls.webp'
-import moss from '../assets/green__walls/moss.webp'
+import walls from '../assets/green__walls/walls.jpg'
+import moss from '../assets/green__walls/moss.jpg'
 
 export const greenWalls = [
   {

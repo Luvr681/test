@@ -1,6 +1,6 @@
-import flower_1 from '../assets/care/1.webp'
-import flower_2 from '../assets/care/2.webp'
-import flower_3 from '../assets/care/3.webp'
+import flower_1 from '../assets/care/1.jpg'
+import flower_2 from '../assets/care/2.jpg'
+import flower_3 from '../assets/care/3.jpg'
 
 import instagram from '../assets/team/icons/instagram.png'
 

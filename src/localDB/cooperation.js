@@ -1,7 +1,7 @@
-import designers from '../assets/cooperation/designers.webp'
-import dilers from '../assets/cooperation/dilers.webp'
-import franchaise from '../assets/cooperation/franchaise.webp'
-import suppliers from '../assets/cooperation/suppliers.webp'
+import designers from '../assets/cooperation/designers.jpg'
+import dilers from '../assets/cooperation/dilers.jpg'
+import franchaise from '../assets/cooperation/franchaise.jpg'
+import suppliers from '../assets/cooperation/suppliers.jpg'
 
 export const cooperation = [
   {

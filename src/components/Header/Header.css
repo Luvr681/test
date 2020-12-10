@@ -1,7 +1,7 @@
 /*Header======================================================*/
 .header {
 	width: 90%;
-	padding: 20px 10px;
+	padding: 20px;
 	position: absolute;
 	top: 10px;
 	left: 50%;
@@ -35,6 +35,7 @@
 }
 
 .nav {
+	max-width: 100%;
 }
 
 .menu {
@@ -84,9 +85,9 @@
 }
 
 .menu__item:hover .menu__next__level {
-	 pointer-events: all;
-	 height: auto;
-	 opacity: 1;
+	pointer-events: all;
+	height: auto;
+	opacity: 1;
 }
 
 .menu__next__level__item {
@@ -150,60 +151,6 @@
 
 @media(max-width: 1200px) {
   .header {
-  }
-}
-
-@media(max-width: 860px) {
-  .header {
-  	padding-right: 30px;
-  }
-
-  .menu__item {
-  	margin-left: 40px;
-  	max-width: 15%;
-  }
-
-  .menu__link {
-  	font-size: 15px;
-  }
-
-  .nav__btn {
-  	text-align: center;
-  	font-size: 15px;
-  }
-}
-
-@media(max-width: 767px) {
-  .header {
-  	padding-right: 30px;
-  	max-width: 60%;
-  }
-
-  .menu__item {
-  	margin-left: 40px;
-  	max-width: 15%;
-  }
-
-  .menu__link {
-  	font-size: 15px;
-  }
-
-  .nav__btn {
-  	text-align: center;
-  	font-size: 15px;
-  }
-}
-
-@media(max-width: 480px) {
-  .header {
-    width: 60%;
-    background-color: #000;
-  }
-}
-
-@media(max-width: 360px) {
-  .header {
-    width: 60%;
-    background-color: #000;
+  	padding: calc(20px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
   }
 }

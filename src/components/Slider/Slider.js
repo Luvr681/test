@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import steel from '../../assets/flowers/steel__seria.webp'
-import stone from '../../assets/flowers/stone__seria.webp'
-import wood from '../../assets/flowers/wood__seria.webp'
+import steel from '../../assets/flowers/steel__seria.jpg'
+import stone from '../../assets/flowers/stone__seria.jpg'
+import wood from '../../assets/flowers/wood__seria.jpg'
 
 import './Slider.css'
 
