@@ -30,7 +30,7 @@ export const Header = () => {
                 </ul>
               </li>
               <li className="menu__item"><Link to='/contacts' className="menu__link">Контакты</Link></li>
-              <li className="menu__item"><Link to='/more' className="menu__link">Ещё</Link>
+              <li className="menu__item"><button className="menu__link">Ещё</button>
                 <ul className="menu__next__level">
                   <li className="menu__next__level__item"><Link to='/politics' className="menu__next__level__link">Политика</Link></li>
                   <li className="menu__next__level__item"><Link to='/cooperation' className="menu__next__level__link">Сотрудничество</Link></li>

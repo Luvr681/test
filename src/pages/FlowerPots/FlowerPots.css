@@ -16,6 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  transition: all .3s linear;
 }
 
 .clip.clip1 {
@@ -75,6 +76,7 @@
   background: #fff;
   opacity: 0;
   bottom: -100px;
+  transition: all .3s linear;
 }
 
 .flower__title {

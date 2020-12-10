@@ -57,6 +57,10 @@ body.scroll__hidden {
   padding-top: 50px;
 }
 
+.section.works {
+  padding-bottom: 30px;
+}
+
 .section.cooperation__categories {
 	padding-top: 80px;
   background-color: #CFA95E;
@@ -78,7 +82,7 @@ body.scroll__hidden {
 }
 
 .section.cooperation .section__title {
-  color: #D4A243;
+  color: #CFA95E;
   margin-top: 30px;
 }
 
@@ -99,7 +103,7 @@ body.scroll__hidden {
 }
 
 .section.politics .section__title {
-  color: #D4A243;
+  color: #CFA95E;
 }
 
 .section.politics .section__text {
@@ -126,7 +130,7 @@ body.scroll__hidden {
 
 .section.supply .section__title {
   font-size: 60px;
-  color: #D4A243;
+  color: #CFA95E;
 }
 
 .section.supply .section__subtitle {
@@ -146,7 +150,7 @@ body.scroll__hidden {
 
 .section.green--walls .section__title {
   font-size: 60px;
-  color: #D4A243;
+  color: #CFA95E;
 }
 
 .section.green--walls .section__subtitle {
@@ -196,7 +200,7 @@ body.scroll__hidden {
 }
 
 .gold {
-  background-color: #D4A243;
+  background-color: #CFA95E;
 }
 
 .section.catalog {
@@ -204,7 +208,7 @@ body.scroll__hidden {
 }
 
 .section.how__to__buy {
-  background-color: #D4A243;
+  background-color: #CFA95E;
   padding-bottom: 50px;
   color: #fff;
 }
@@ -303,5 +307,44 @@ body.scroll__hidden {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #D4A243;
+  background-color: #CFA95E;
+}
+
+@media(min-width: 1820px) {
+  .container {
+    width: 100%;
+    max-width: 1700px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .header {
+    width: 60%;
+    background-color: #000;
+  }
+}
+
+@media(max-width: 767px) {
+  .container {
+    width: 760px;
+  }
+
+  .header {
+    width: 60%;
+    background-color: #000;
+  }
+}
+
+@media(max-width: 480px) {
+  .header {
+    width: 60%;
+    background-color: #000;
+  }
+}
+
+@media(max-width: 360px) {
+  .header {
+    width: 60%;
+    background-color: #000;
+  }
 }
