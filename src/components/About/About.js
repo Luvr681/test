@@ -6,7 +6,7 @@ import './About.css'
 
 export const About = () => {
   return (
-    <section className="section">
+    <section className="section about">
       <div className="section__header">
         <h2 className="section__title">About Us</h2>
         <p className="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>

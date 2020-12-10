@@ -1,33 +1,33 @@
-.examples {
-	background-color: #ccc;
-}
-
 .example__inner {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	background-color: #000;
+	justify-content: center;
+	padding: 0;
+	overflow: hidden;
 }
 
 .example__img__block {
-
+	width: 60%;
+	height: 100%;
 }
 
 .example__img {
-
+	height: 100%;
+	width: 100%;
 }
 
 .example__info {
-	padding: 100px;
+	padding: 90px;
+	max-width: 50%;
 	text-align: center;
-	color: #fff;
 }
 
 .example__title {
 	font-family: 'Sansita Swashed', cursive;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 45px;
 	margin-bottom: 40px;
+	color: #CFA95E;
 }
 
 .example__subtitle {
@@ -47,10 +47,11 @@
 
 .example__link {
 	padding: 10px 20px;
-	background-color: #ccc;
+	background-color: #CFA95E;
+	color: #fff;
 	max-width: 40px;
 }
 
 .example__btn:hover .example__link {
-	background-color: #fff;
+	background-color: #B58B3B;
 }

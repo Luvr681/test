@@ -37,8 +37,6 @@ export const Header = () => {
                 </ul>
               </li>
 
-              <Link to="/contacts" className="nav__btn">Связаться с нами</Link>
-
             </ul>
           </nav>
 

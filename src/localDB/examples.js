@@ -1,10 +1,47 @@
+import one from '../assets/examples/1.jpg'
+import two from '../assets/examples/2.jpg'
+import three from '../assets/examples/3.jpg'
+import four from '../assets/examples/4.jpg'
+
 export const examples = [
   {
     id: 0, 
-    image: 'https://static.wixstatic.com/media/e92d7b_502f01b672f14a92856fbc22c95b5841~mv2.jpg/v1/fill/w_564,h_523,fp_0.50_0.50,q_80/e92d7b_502f01b672f14a92856fbc22c95b5841~mv2.webp',
+    image: one,
     title: 'Garden inside',
     subTitle: 'Сады внутри помещения',
     text: "В современных интерьерах не хватает живых растений.\nСад внутри поможет нормализовать воздух и повысить эффективность  работы",
-    link: 'https://google.com'
+    link: '/garden__inside'
+  },
+  {
+    id: 1, 
+    image: two,
+    title: 'Зелёные стены',
+    subTitle: 'Современная тенденция',
+    text: "Устойчивый тренд последних лет- зелёные стены. Для вас стены из живых и искусственных растений, а так же из стабилизированного мха.",
+    link: '/green__walls'
+  },
+  {
+    id: 2, 
+    image: three,
+    title: 'Кашпо',
+    subTitle: 'Широкий ассортимент',
+    text: "Предлагаем широкий ассортимент кашпо и горшков. в нашем каталоге вы найдете кашпо: из дерева, из бетона, больших размеров, индивидуального производства, а так же с системой автоматического полива.",
+    link: '/flower__pot'
+  },
+  {
+    id: 3, 
+    image: four,
+    title: 'Уход за растениями',
+    subTitle: 'профессиональный подход',
+    text: "Специалисты нашей компании имеют профильное образование и большой опыт в уходе за комнатными растениями.",
+    link: '/plant__care'
+  },
+  {
+    id: 4, 
+    image: three,
+    title: 'Поставка растений',
+    subTitle: 'Прямые поставки из лучших питомников',
+    text: "Мы осуществляем прямые закупки в питомниках под конкретные задачи клиентов. Доставка проходит быстро и эффективно.",
+    link: '/supply__flowers'
   }
 ]
