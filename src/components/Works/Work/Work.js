@@ -9,7 +9,7 @@ export const Work = ({ setModal, work, setActive }) => {
       setModal(work)
     }} className="works__item">
       <div className="works__img">
-      <img className="work__photo" src={work.image} alt="" />
+        <img className="work__photo" src={work.image} alt="" />
       </div>
       <div className="work__info">
         <h1 className="works__title">{ work.title }</h1>

@@ -6,15 +6,31 @@
 
 	width: 100%;
 	height: 100vh;
-	background: url('../../assets/intro__background.png') center no-repeat;
 	background-size: cover;
 	background-color: rgba(0, 0, 0, .95);
 	position: relative;
 }
 
+.plant__care__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../../assets/0036.jpg') center no-repeat;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+}
+
 .plant__care__inner {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	z-index: 1;
+	margin-right: 0 auto;
+	width: 100%;
 	text-align: center;
-	width: 80%;
+	opacity: 1;
 }
 
 .plant__care__title {

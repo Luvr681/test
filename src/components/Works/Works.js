@@ -60,7 +60,7 @@ export const Works = ({ setHidden }) => {
               })
             }
 
-            <ModalWindow content={modalContent && modalContent} active={modalActive} setActive={setModalActive} />
+            <ModalWindow classes={"modal__work"} content={modalContent && modalContent} active={modalActive} setActive={setModalActive} />
 
           </div>
           

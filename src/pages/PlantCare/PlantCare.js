@@ -19,6 +19,7 @@ export const PlantCare = () => {
   	<div className={scrollHidden ? 'scroll__hidden' : ''}>
 	  	<Header />
 	    <section className="plant__care">
+        <div className="plant__care__bg"></div>
 	      <div className="plant__care__inner">
 	        <h1 className="plant__care__title">Профессиональный уход за растениями</h1>
 	        <h3 className="plant__care__subtitle">Лучшие специалисты</h3>

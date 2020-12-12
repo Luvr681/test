@@ -1,329 +1,863 @@
-import Layer_2 from '../assets/works/Layer_2.png'
+import image1 from '../assets/works/1.jpg'
+import image2 from '../assets/works/2.jpg'
+import image3 from '../assets/works/3.jpg'
+import image4 from '../assets/works/4.jpg'
+import image5 from '../assets/works/5.jpg'
+import image6 from '../assets/works/6.jpg'
+import image7 from '../assets/works/7.jpg'
+import image8 from '../assets/works/8.jpg'
+import image9 from '../assets/works/9.jpg'
+import image10 from '../assets/works/10.jpg'
+import image11 from '../assets/works/11.jpg'
+import image12 from '../assets/works/12.jpg'
+import image13 from '../assets/works/13.jpg'
+import image14 from '../assets/works/14.jpg'
+import image15 from '../assets/works/15.jpg'
+import image16 from '../assets/works/16.jpg'
+import image17 from '../assets/works/17.jpg'
+import image18 from '../assets/works/18.jpg'
+import image19 from '../assets/works/19.jpg'
+import image20 from '../assets/works/20.jpg'
+import image21 from '../assets/works/21.jpg'
+import image22 from '../assets/works/22.jpg'
+import image23 from '../assets/works/23.jpg'
+import image24 from '../assets/works/24.jpg'
+import image25 from '../assets/works/25.jpg'
+import image26 from '../assets/works/26.jpg'
+import image27 from '../assets/works/27.jpg'
+import image28 from '../assets/works/28.jpg'
+import image29 from '../assets/works/29.jpg'
+import image30 from '../assets/works/30.jpg'
+import image31 from '../assets/works/31.jpg'
+import image32 from '../assets/works/32.jpg'
+import image33 from '../assets/works/33.jpg'
+import image34 from '../assets/works/34.jpg'
+import image35 from '../assets/works/35.jpg'
+import image36 from '../assets/works/36.jpg'
+import image37 from '../assets/works/37.jpg'
+import image38 from '../assets/works/38.jpg'
+import image39 from '../assets/works/39.jpg'
+import image40 from '../assets/works/40.jpg'
+import image41 from '../assets/works/41.jpg'
+import image42 from '../assets/works/42.jpg'
+import image43 from '../assets/works/43.jpg'
+import image44 from '../assets/works/44.jpg'
+import image45 from '../assets/works/45.jpg'
+import image46 from '../assets/works/46.jpg'
+import image47 from '../assets/works/47.jpg'
+import image48 from '../assets/works/48.jpg'
+import image49 from '../assets/works/49.jpg'
+import image50 from '../assets/works/50.jpg'
+import image51 from '../assets/works/51.jpg'
+import image52 from '../assets/works/52.jpg'
+import image53 from '../assets/works/53.jpg'
+import image54 from '../assets/works/54.jpg'
+import image55 from '../assets/works/55.jpg'
+import image56 from '../assets/works/56.jpg'
+import image57 from '../assets/works/57.jpg'
+import image58 from '../assets/works/58.jpg'
+import image59 from '../assets/works/59.jpg'
+import image60 from '../assets/works/60.jpg'
+import image61 from '../assets/works/61.jpg'
+import image62 from '../assets/works/62.jpg'
+import image63 from '../assets/works/63.jpg'
+import image64 from '../assets/works/64.jpg'
+import image65 from '../assets/works/65.jpg'
+import image66 from '../assets/works/66.jpg'
+
 import instagram from '../assets/team/icons/instagram.png'
 
 export const works = [
   {
-    id: 1,
-    title: 'Hand watch',
+    id: 51,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Друзья, в связи с указом президента РФ у нас немного меняется график работы 📆 Мы остаёмся на связи онлайн, консультируем по любым интересующим вопросам и принимаем заявки. Однако, отгрузку растений приостанавливаем до 06.04. Спасибо вам за понимание 🌱',
+      link: 'https://www.instagram.com/p/B-WVCAgCCIS/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image51
   },
   {
-    id: 2,
-    title: 'Hand watch',
+    id: 59,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Почистим пёрышки? 💦 Нам в окна попадает все больше солнечного света и это прекрасно! При ярком дневном свете на листьях особенно заметно скопление пылевых частиц, а это портит вид наших любимцев. Наш совет: возьмите нетканную тряпочку и нанесите на неё немного обычного жидкого мыла. Такой тряпочкой аккуратно протрите поверхность листьев 🌱 Эта процедура избавит листья от пыли и придаст им блеск ✨ На фото: сияет чистотой калатея Медальон 😉',
+      link: 'https://www.instagram.com/p/B-O0vNtCzET/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image59
   },
   {
-    id: 3,
-    title: 'Hand watch',
+    id: 50,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Добрый день, друзья ☀️ С падением рубля мы вскоре заметим рост цен, в том числе на растения и кашпо🥀 Поставщики уже начали вводить повышение стоимости на небольшую группу товаров. Поэтому, кто хочет успеть поймать «старые» цены - ждём Ваших заявок 🌿',
+      link: 'https://www.instagram.com/p/B-JyggYi3a8/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image50
   },
   {
-    id: 4,
-    title: 'Hand watch',
+    id: 48,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Пока в мире бушует зловредный вирус 🦠 мы, как и многие наши клиенты, стараемся работать удаленно 🏘Однако, сервисное обслуживание это не затронуло. Растения находятся в наших надежных руках 🤲🏻 На фото: фикус Бенджамина Экзотика в кашпо @lechuza.ru',
+      link: 'https://www.instagram.com/p/B96o3JjKiuu/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image48
   },
   {
-    id: 5,
-    title: 'Hand watch',
+    id: 47,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: ' В продолжение предыдущего поста, как и обещали, подборка 😌🏡 Итак, рекордсмены по очищению: ❇️шеффлера ❇️аглаонема ❇️сансевиерия ❇️хлорофитум ❇️антуриум ❇️эпипремнум ❇️драцена ❇️нефролепис ❇️спатифиллум Все они отлично очищают воздух и насыщают его водными парами. Активно усваивают ксилен и толуол и перерабатывают их в безвредные для человека соединения. Также борются с формальдегидом, который выделяется из фанеры, мебели, ковровых покрытий. Берегите своё здоровье, друзья🌍',
+      link: 'https://www.instagram.com/p/B9ypTu_qg2v/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image47
   },
   {
-    id: 6,
-    title: 'Hand watch',
+    id: 44,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Чем отравляется воздух в наших квартирах? ⚠️⚠️⚠️⚠️⚠️⚠️ 🔺Формальдегид Содержится в мебели из ДСП, ДВП, ковровых покрытиях и обивочных материалах, табачном дыме, пластиковой посуде, бытовом газе. 🔺Трихлорэтилен Содержится в средствах для чистки ковров и тканей, хлорированной воде, картриджах для принтеров, лакокрасочной продукции. 🔺Бензол Находится в табачном дыме, чистящих и моющих средствах, в том числе мыле, лакокрасочной продукции, изделиях из резины. Канцероген, который способен провоцировать лейкемию, накапливается в жировой ткани. 🔺Аммиак Содержится в компьютерной технике, табачном дыме, средствах бытовой химии. Вызывает сухость и першение в горле, кашель, провоцирует боли в груди. 🔺Ксилол На его основе производят многие виды пластмасс, лакокрасочную продукцию, клеи, также он содержится в автомобильных выхлопных газах, изделиях из кожи и табачном дыме. Чтобы экологично очистить воздух, специалисты рекомендуют разместить растения в комнатах. Они способны нейтрализовать до 85% загрязнений воздуха в помещении. КАКИЕ ИМЕННО? Расскажем в следующей публикации✔️',
+      link: 'https://www.instagram.com/p/B9n5UFUKMAn/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image44
   },
   {
-    id: 7,
-    title: 'Hand watch',
+    id: 43,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Опрыскивание: для чего и как правильно 💦 Опрыскивание комнатных растений - необходимая составляющая ухода. Один-два раза в неделю опрыскать растения фильтрованной водой не должно быть затруднительным. Чередуйте распыление просто водой и раствором стимуляторов (циркон, эпин, цитовит). Такая несложная процедура избавит от сухих кончиков листья домашних любимцев, ведь в природе они привыкли жить при высокой влажности 🏝 На фото: фикус Бенджамина, впитывает живительные капли влаги после опрыскивания 🌳🌿 Хорошего дня, друзья!😉',
+      link: 'https://www.instagram.com/p/B9ly_sAnuN4/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image43
   },
   {
-    id: 8,
-    title: 'Hand watch',
+    id: 46,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'НЕФРОЛЕПИС и возможные проблемы содержания 🌱 Из всех комнатных папоротников нефролепис лучше всего подходит для выращивания в домашних условиях. Он прост в уходе и редко вызывает аллергию. С какими же трудностями можно столкнуться при его содержании? 🔹Самая частая проблема – когда желтеют листья и коричневеют их кончики. Старые листья желтеют и отмирают, это естественный процесс. Но если желтеют молодые листья, виной этому или сухой воздух или вредители: мучнистый червец или щитовка. 🔹Если у листьев блёклая окраска и на поверхности листа коричневые пятна, значит, растение страдает от яркого солнца. 🔹Бледный цвет может свидетельствовать и об обратном – недостатке света или питания растения. 🔹Плохой рост может свидетельствовать о недостатке места - тесном горшке. 🔹Если листья чернеют и загнивают, скорее всего, это грибковая инфекция. Будьте внимательны к своим подопечным и они долго будут радовать своей красотой 🌺',
+      link: 'https://www.instagram.com/p/B9WFP_nnKdc/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image46
   },
   {
-    id: 9,
-    title: 'Hand watch',
+    id: 45,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Доброго дня! Продолжаем показывать наши работы 🏡 Клиент хотел добавить тропических растений с крупными листьями 🏝 Выбор велик, однако следовало учесть высокую температуру в помещении и палящее солнце 🌞 Итог: хризолидокарпусы в кашпо @lechuza.ru 🌿 Похоже на тропический островок?🌴',
+      link: 'https://www.instagram.com/p/B9Towugqx1Y/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image45
   },
   {
-    id: 10,
-    title: 'Hand watch',
+    id: 41,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Доброго дня! Порой в интерьере нам нужен яркий акцент, то, что сразу привлечёт взгляд 👀 С этой задачей прекрасно справятся пестролистные сорта растений. Какие? Смотрим в карусели 😉 ♦️кодиеум (кротон) ♦️калатея ♦️диффенбахия ♦️фиттония ♦️аглаонема Крит ♦️строманта ♦️маранта Не бойтесь добавлять яркие пятна в ваши зелёные уголки 🌿',
+      link: 'https://www.instagram.com/p/B9G7LAuHq2t/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image41
   },
   {
-    id: 11,
-    title: 'Hand watch',
+    id: 38,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'О грунте. Главное свойство почвы - её плодородие, т.е. способность обеспечивать растение необходимыми веществами. Плодородие зависит от количества органического компонента в почве - чем больше органики, тем почва плодороднее. Но далеко не все группы растений нуждаются в высокоплодородных почвах, как Вы могли бы подумать. ❇️ Суккуленты и кактусы - предпочитают бедные почвы. Универсальный грунт можно разрыхлить, добавив песок, вермикулит, перлит. ❇️ Пальмы - более влаголюбивы, нежели суккуленты, но тоже не любят «тяжелый» субстрат. Также используем разрыхлители. ❇️ Папоротники - предпочитают питательный насыщенный субстрат. Земляная смесь для них может иметь темный цвет, что говорит о большом содержании органики. ❇️ Декоративно-лиственные - большая группа с разными предпочтениями. В случае, если Вы используете универсальный грунт, то, добавив разрыхляющие агенты, хуже никому точно не будет. Добавкой в почву может также являться уголь, особенно актуально это для влаголюбивых. Спатифиллумам можно «припудрить» при пересадке корни угольным порошком, это снизит риск появления гнилей на корнях и, соответственно, коричневых пятен на листьях. Остались вопросы?😊 мы всегда рады Вам ответить',
+      link: 'https://www.instagram.com/p/B9D0Ai_HYRB/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image38
   },
   {
-    id: 12,
-    title: 'Hand watch',
+    id: 33,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'О грунте 🌱 Комнатные растения вынуждены развиваться в условиях ограниченной среды, в отличии от своих садовых собратьев, к примеру. Грунт как поставщик питательных веществ является важным фактором полноценной жизни растения. Его характеристики - механическая структура, кислотность, воздухопроницаемость - отличаются для разных групп 🌬 Помните, что почва, взятая из леса, выкопанная из огорода - для обитателей наших квартирных садов не подходит! 🙅🏼‍♀️ В ней присутствуют споры бактерий, гифы грибов, соли тяжелых металлов и различный мусор в виде сорняков, сучков. Поэтому, лучше использовать готовые субстраты. Об особенностях готовых почвенных смесей поговорим в следующей публикации👩🏻‍🌾 Доброго дня!',
+      link: 'https://www.instagram.com/p/B9BaTPMHKcV/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image33
   },
   {
-    id: 13,
-    title: 'Hand watch',
+    id: 42,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: ' Доброго дня! Наш новый проект🌿 В нем сочетаются натуральное дерево, панорамное остекление, растения во встроенных кашпо и множество белого цвета вокруг 🌳 Следуем современным тенденциям вместе с вами💡 Желаем Вам приятного окончания рабочей недели и отличного отдыха!',
+      link: 'https://www.instagram.com/p/B80wPEoKPsC/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image42
   },
   {
-    id: 14,
-    title: 'Hand watch',
+    id: 40,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Там, где растениям не место 🌘 Озеленение живыми растениями всегда должно учитывать потребности конкретных видов растений. И, конечно, далеко не всегда объекты располагают благоприятными условиями ☀️ В тёмных, лишенных естественного освещения пространствах тоже имеет место озеленение ☝🏻 Выбор можно сделать в пользу стабилизированных растений, ведь они: ✅ не требуют полива ✅ не нуждаются в хорошем освещении ✅ долговечны и не теряют декоративности долгие годы Наша компания работает со стабилизированным мхом глицериновой обработки. На фото: панно из стабилизированного мха в чёрной раме (30*60см),а также Эко-кубы в оттенках Лайм, Зелёный и Зелёное яблоко 🍏 (высота кубиков 10см) Любые вопросы отправляйте в Директ😉',
+      link: 'https://www.instagram.com/p/B8xzMV6no03/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image40
   },
   {
-    id: 15,
-    title: 'Hand watch',
+    id: 39,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Тропики вокруг нас 🏖 Многие растения, с которыми мы работаем, тропические - приспособленные к жаркому и влажному климату без смены сезонов. Ещё часть - субтропические 🎋 для них характерна приспособленность к смене погодных условий. Таковы, например, Цитрусовые 🍋 Зелёные насаждения действительно формируют в вашем офисном пространстве оазис🌴🌳 На фото: монстера - тропическая лиана с крупными рассеченными листьями 🌱',
+      link: 'https://www.instagram.com/p/B8wKbU6Hxxr/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image39
   },
   {
-    id: 16,
-    title: 'Hand watch',
+    id: 35,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Орхидеи и уход за ними 🏝 Большинство орхидей, встречающихся в магазинах, попадают в категорию «эпифитов». То есть их первоначальная среда обитания находится на тропических деревьях. К этой категории относятся фаленопсис, каттлея, онцидиум, дендробиум и милтония. Эта необычная особенность многое говорит о предпочтениях орхидей: им не нравится почва, заболоченность или слишком много удобрений. Как же обеспечить правильных уход? ✅Орхидеи не любят заболоченный или переувлажненный грунт. Когда растение все выпьет, создайте растению сухой период в течение 7–14 дней. ✅Орхидеи любят хорошо освещенные места без прямого контакта с солнечными лучами (например, в окнах, обращенных на восток или запад). В противном случае они могут получить ожоги от солнца. ✅Орхидеи предпочитают воду, которая не содержит известь. Использовать можно фильтрованную воду. ✅Орхидеям требуется специальный субстрат. Его основу составляют кора, кокосовое волокно, мох и гумус. А Вы предпочитаете цветущие растения или декоративно-лиственные? Ответы оставляйте в комментариях 👇🏻 Хорошего дня!',
+      link: 'https://www.instagram.com/p/B8svD86qWJV/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image35
   },
   {
-    id: 17,
-    title: 'Hand watch',
+    id: 36,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'День всех влюблённых🌺 Сегодня для нас появился повод ещё раз вспомнить, как мы влюблены в свою работу, друзья! Мы дарим этому миру больше красоты и заботы 🎁 С любовью к вам, Авенир',
+      link: 'https://www.instagram.com/p/B8jMcRNqUVA/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image36
   },
   {
-    id: 18,
-    title: 'Hand watch',
+    id: 34,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Весна идёт! Солнечные ванны и регулярные подкормки дают свои плоды 🌞 Фикус Лирата пробуждает спящие почки и распускает новые листочки. Кстати, этот представитель фикусов имеет форму листа, напоминающую музыкальный инструмент лиру, за что и получил своё название Лировидный 🌴 Хорошего Вам дня, друзья!',
+      link: 'https://www.instagram.com/p/B8dSDL9KFYY/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image34
   },
   {
-    id: 19,
-    title: 'Hand watch',
+    id: 29,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: ' Роль комнатных растений в интерьере 🛋 Комнатные растения — больше, чем просто средство создания здоровой атмосферы и озеленения дома. Независимо от того, являются ли зеленые любимцы крупными или маленькими, они являются одним из самых важных инструментов создания того самого уюта, к которому мы все стремимся 🖼 У них есть уникальные таланты выполнять в интерьере самые поразительные роли. И улучшение экологичности, атмосферности, внесение гармонии — лишь самые очевидные из них. Перечислим функции растений в интерьере🌿: - разделение пространства - подчеркивание назначения отдельных зон - создание точек притяжения взора - заполнение пустот Продуктивной Вам недели и доброго дня!🎉',
+      link: 'https://www.instagram.com/p/B8YFNu4qAkc/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image29
   },
   {
-    id: 21,
-    title: 'Hand watch',
+    id: 31,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: 'Доброе утро, друзья! Наш офис наполнен цветением 💐 Чудесный спатифиллум выглядит как цветок невесты - нежный и изящный 👰 не зря его называют «женским счастьем» Спатифиллум - это хит озеленения. Самые крупные сорта достигают в высоту 1,5 метров! Для заказа Вы всегда можете связаться с нами в Директ 😉',
+      link: 'https://www.instagram.com/p/B8LUM9Zo2_P/',
     },
     icon: instagram,
-    image: Layer_2
+    image: image31
   },
   {
-    id: 22,
-    title: 'Hand watch',
+    id: 37,
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
+      title: 'avenir_fito',
+      description: ' Ампельными называют растения с ниспадающими побегами 🌿 Кашпо с ними прекрасно смотрятся на возвышениях, например в подвесном варианте 🛋 Предлагаем вам подборку лучших ампельных растений для вашего дома: 1. Хедера хеликс 2. Сциндапсус 3. Фикус ползучий 4. Хлорофитум 5. Крестовник 6. Традесканция 7. Филодендрон 8. Эсхинантус 9. Эпипремнум Разнообразьте свой зелёный уголок квартиры ампельными растениями! Доброго дня!',
+      link: 'https://www.instagram.com/p/B8IkjtiI0nW/',
     },
     icon: instagram,
-    image: Layer_2
-  },
-  {
-    id: 23,
-    title: 'Hand watch',
-    description: 'ui/ux design',
-    moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
-    },
-    icon: instagram,
-    image: Layer_2
-  },
-  {
-    id: 24,
-    title: 'Hand watch',
-    description: 'ui/ux design',
-    moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
-    },
-    icon: instagram,
-    image: Layer_2
-  },
-  {
-    id: 25,
-    title: 'Hand watch',
-    description: 'ui/ux design',
-    moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
-    },
-    icon: instagram,
-    image: Layer_2
-  },
-  {
-    id: 26,
-    title: 'Hand watch',
-    description: 'ui/ux design',
-    moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
-    },
-    icon: instagram,
-    image: Layer_2
-  },
-  {
-    id: 27,
-    title: 'Hand watch',
-    description: 'ui/ux design',
-    moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
-      link: 'https://google.com',
-    },
-    icon: instagram,
-    image: Layer_2
+    image: image37
   },
   {
     id: 28,
-    title: 'Hand watch',
+    title: 'avenir_fito',
     description: 'ui/ux design',
     moreInfo: {
-      title: 'Hand watch',
-      description: 'JJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionJust descriptionust description',
+      title: 'avenir_fito',
+      description: 'Дизайн в стиле Лофт Друзья, недавно с нами поделились мнением, что растения и Лофт несовместимы. Индустриальный стиль гармонично смотрится без зелёных элементов. Нам интересно, согласны ли Вы с этим замечанием? Какие растения подошли бы к такому интерьеру по вашему? P.S. На фото элемент стены офисного пространства нашего клиента и очаровательный замиокулькас в кашпо @lechuza.ru',
+      link: 'https://www.instagram.com/p/B73GnmyoPTn/',
+    },
+    icon: instagram,
+    image: image28
+  },
+  {
+    id: 26,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Сад из пряных трав в квартире 🥬 Всегда мечтали иметь под рукой мяту, базилик, душицу или розмарин? Стильное решение на этот случай предлагает @lechuza Только представьте - вертикальный сад из пряностей на вашей кухне! Держателем для кашпо выступают специальные магниты ☝🏻Обращаем внимание, что кашпо не предназначены для полноценной посадки растения 🌱 На данный момент представленные кашпо в наличии - успейте купить!😉 Всем удачного дня!',
+      link: 'https://www.instagram.com/p/B7s9HJbIxWW/',
+    },
+    icon: instagram,
+    image: image26
+  },
+  {
+    id: 27,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Когда цветёт папоротник? В славянской мифологии существует легенда, что раз в год в ночь на Ивана Купала происходит цветение папоротника и тому, кто отыщет цветок будут дарованы тайны мира 🌺 Конечно, это красивая сказка 😊 Мы с Вами помним, что папоротники - растения Споровые, то есть размножаются при помощи спор. Такой орган как цветок у них просто отсутствует 🌿 При всем при этом папоротники, и в частности Нефролепис - чудесное украшение дома за счёт ярко-зелёной листвы. Любят затенённые локации и опрыскивания 💦',
+      link: 'https://www.instagram.com/p/B7p97vLobWK/',
+    },
+    icon: instagram,
+    image: image27
+  },
+  {
+    id: 25,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Расставим акценты? Сингониум с ярко-салатовой пышной кроной в кубическом кашпо привлекает взгляд, не так ли? Мы вообще обожаем растения с разными оттенками листьев - светло-зелёными, темными или бордовыми 🌵Они отлично смотрятся рядом друг с другом и акцентируют внимание на живой композиции! ☘️ А Вы за пестроту или монохромность растений в интерьере?',
+      link: 'https://www.instagram.com/p/B7lAl_Qo-JN/',
+    },
+    icon: instagram,
+    image: image25
+  },
+  {
+    id: 30,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго понедельника, друзья! Частый вопрос клиентов: шеффлера стала осыпаться, крона редеет - в чем причина? Это действительно важный момент, на который стоит обратить внимание☝🏻 🔸Если осыпающиеся листочки потемнели, стали коричневыми - то перед вами вероятнее всего перелив. В данном случае растению следует дать подсохнуть и впредь осуществлять полив умереннее 🔸Если листочки при осыпании остаются зелёными, не меняют своей окраски - то растение сигнализирует нам о недостаточном освещении 🆘 В таком случае нужно поменять расположение шеффлеры на более светлое место Если листопад прекратился, это верный знак того, что Вы всё сделали правильно 🌱 Надеемся, что информация была Вам полезна 👍🏻 Всем удачного дня!',
+      link: 'https://www.instagram.com/p/B7h7QyrIFe4/',
+    },
+    icon: instagram,
+    image: image30
+  },
+  {
+    id: 23,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день 🌞 Растениям необходим солнечный свет - это известно всем со школьной скамьи. Именно поэтому стоит помнить, что не бывает ТЕНЕЛЮБИВЫХ растений, есть ТЕНЕВЫНОСЛИВЫЕ. Почувствуйте разницу! ⠀ ☝🏻 Общее правило таково: чем темнее листья, тем выносливее растение к дефициту света. На основании опыта наших специалистов-биологов предлагаем вам подборку растений, способных выжить в темных локациях помещений: ⠀ ✔️ замиокулькас замиелистный ✔️ сансевиерия ✔️ юкка ✔️ аглаонема (сорта с темными листьями) ✔️ аспидистра ✔️ драцена маргината ✔️ филодендрон ✔️ фикус эластика Какие растения забыли упомянуть? Ответы оставляйте в комментариях 👇🏻😉 Всем удачного дня!',
+      link: 'https://www.instagram.com/p/B7aedG-H-4n/',
+    },
+    icon: instagram,
+    image: image23
+  },
+  {
+    id: 24,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'С добрым утром, друзья! Первая рабочая неделя года близка к завершению. Вы уже вошли в рабочий режим? 🚗 Наша команда - однозначно да! Мы уже успели соскучиться по своим зеленым питомцам за время новогодних каникул 🌹 Также, напоминаем Вам, дорогие клиенты, что эко-кубики со стабилизированным мхом В НАЛИЧИИ! Получить их можно жителям Екатеринбурга у нас в офисе (БЦ Высоцкий), либо доставкой по всей России ✈️ Удачного дня!',
+      link: 'https://www.instagram.com/p/B7Xx688o2SO/',
+    },
+    icon: instagram,
+    image: image24
+  },
+  {
+    id: 22,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня ✨ По хештегу #авенир_работы отныне вы можете найти фото наших объектов озеленения, а также изделий из стабилизированного мха и фитомодулей ☘️ Светлая столовая комната теперь дополнена зелеными красками. Панорамное остекление и влажность в этом пространстве формируют прекрасные условия для роста и развития растений 🌱 Обеспечьте лишь регулярный полив и такой сад будет радовать вас много сезонов! #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#авенир_работы#авенир_фито',
+      link: 'https://www.instagram.com/p/B7VfQY1Ir3H/',
+    },
+    icon: instagram,
+    image: image22
+  },
+  {
+    id: 20,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня! Возвращаемся в рабочий режим, друзья 🗓 Надеемся, что Вам удалось отдохнуть и набраться сил на праздниках🎄 К тому же, у нас много приятных новостей! Но обо всём по порядку😉 ждите следующих постов 👇🏻 На фото логотип компании Лига Время в красном цвете ⏳ #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#авенир_работы',
+      link: 'https://www.instagram.com/p/B7F75QYIM-U/',
+    },
+    icon: instagram,
+    image: image20
+  },
+  {
+    id: 19,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'КАК РАЗВЛЕЧЬ СЕБЯ НА КАНИКУЛАХ? Доброго дня,друзья! До конца новогодних праздников ещё далеко, а значит можно успеть зарядиться положительными эмоциями на год вперёд! Как?⛄️ Делимся проверенными развлечениями вблизи Екатеринбурга, от которых Вы точно будете в восторге🤩: ⠀ ⠀ 1. Питомник ездовых собак «Эльбрус» - для тех, кто любит мохнатых и хвостатых, готов не жалея сил чесать пузики милым хаски, маламутам и самоедам, не побоится сесть в сани за собачьей упряжкой 🐕 Собаки здесь очень ласковые и дружелюбные, а всего в питомнике более 50 пёсиков! 2. Горячие источники «Баден-Баден» Тёплые воды термального бассейна готовы принять Вас в свои объятья 🤗 Даже пару часов релакса в банном комплексе перезагрузят весь организм! Особенно красиво в термах вечером - подсветка бассейна невероятная, эффектные фото обеспечены🎇 3. Природный парк «Оленьи ручьи» Замечательный уголок природы, где можно встретить стоянку древнего человека, полюбоваться на скалы🏔, покрытые зелёными подушками мха, пройтись по подвесному мосту. Наш любимый аттракцион - кормление птиц, они так и ждут от гостей угощения и будут садиться на голову, руки и плечи в поисках вкусностей 🐦 Помните, что не стоит кормить пернатых хлебом, предпочтительнее крупы, семечки и кусочки яблок 🍽 4. Посетить каток в ЦПКиО им. Маяковского Один из самых любимых вариантов зимнего досуга - катание на коньках ⛸ В дружной компании и под музыкальное сопровождение время пролетит незаметно 🌌 5. Природный парк «Бажовские места» Ещё одно прекрасное место для зимних прогулок. Пройдитесь до скалы «Тальков камень», устройте пикник на берегу затопленного карьера, покормите птиц и загляните через слой льда в темные глубины озёра 🛷 Желаем Вам незабываемого отдыха! Расскажите нам о своих вариантах досуга! Что уже успели сделать и что планируете? Ждём Ваших откликов в комментариях👇🏻 Спасибо 🙏 😁 #озеленение#озеленениеофиса#фитодизайн#новыйгод2020#екатеринбург#екатеринбургсегодня#катаниенасобаках#каникулы#рождество#отдыхвсейсемьей',
+      link: 'https://www.instagram.com/p/B65KkvOKqQi/',
+    },
+    icon: instagram,
+    image: image19
+  },
+  {
+    id: 21,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: ' Свершилось💫 Новый год наступил и значит впереди 366 дней новых открытий, свершений и побед! Друзья, будьте счастливы, полны сил, открыты всему доброму и прекрасному в этом мире ❄️ От души поздравляем Вас с праздником!🎁🍾🥳 #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеукрашения',
+      link: 'https://www.instagram.com/p/B6x4_kqHF8r/',
+    },
+    icon: instagram,
+    image: image21
+  },
+  {
+    id: 16,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Друзья! ПРАЗДНИК НА ПОРОГЕ 🥳 Вы успели приготовить к празднику мандарины и шампанское? 🍸 Успели придумать желание, что загадаете под бой курантов? Успели нарядить зелёную красавицу-ёлку?🎁 Если вдруг нет, то самое время наконец сделать ЭТО! Компания Авенир желает Вам прекрасного праздника и самых радостных моментов в новогоднюю ночь 🌟 #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеукрашения#новогодомания',
+      link: 'https://www.instagram.com/p/B6sYoReKUe4/',
+    },
+    icon: instagram,
+    image: image16
+  },
+  {
+    id: 2,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день! Подкормки и удобрения для комнатных растений - как сделать это правильно? 🌱 Рассказываем! Уход за зелеными питомцами обязательно должен включать внесение подкормки. Ведь растения получают питание из почвы и нуждаются в органических и минеральных веществах. 🟢Летом (апрель-сентябрь) удобрять почву можно с интервалом в 14-20 дней, зимой (октябрь-март) интервал больше - 35-50 дней. 🟢Использовать можно жидкие комплексные удобрения или удобрения в гранулах (см. фото) Растения сразу отзовутся на удобрение пышным ростом и цветением! #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#авенир_работы',
+      link: 'https://www.instagram.com/p/B6iIkJtiZlg/',
+    },
+    icon: instagram,
+    image: image2 
+  },
+  {
+    id: 14,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня! Вы просили - МЫ СДЕЛАЛИ! 🥳 Новое поступление кубиков: деревянная основа из массива сосны с множеством граней и подушечка мха различных оттенков! А какой цвет Ваш фаворит? 🎨 Приобрести кубик можно уже сейчас в нашем офисе в БЦ Высоцкий или доставкой по России. Напоминаем, что цена изделия всего 350 р. 🙌🏻Успейте купить! #авенир_работы',
+      link: 'https://www.instagram.com/p/B6fkXiICcgq/',
+    },
+    icon: instagram,
+    image: image14
+  },
+  {
+    id: 10,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Друзья! Какой настоящий праздник без музыки? Вспомнили сегодня наши любимые новогодние композиции и составили свой топ-5: 🎼 Wham! - Last Christmas 🎼 Mariah Carey - All I Want for Christmas is you 🎼 ABBA- Happy New Year 🎼 Chris Rea -Driving Home for Christmas 🎼 Ёлочка, ёлка лесной аромат - песня из мультфильма «Новогодняя сказка» Какие у вас любимые новогодние мелодии?🍾 делитесь в комментариях 👇🏻 #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеукрашения#новогоднеенастроение#новогодняяелка#новогодняякопилкаlechuza',
+      link: 'https://www.instagram.com/p/B6dVQ2YihZj/',
+    },
+    icon: instagram,
+    image: image10
+  },
+  {
+    id: 18,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня, друзья! Помните, как в детстве мы украшали дом к Новому году? Радостно вырезали снежинки, мастерили игрушки на елку, оборачивали подарки в пеструю бумагу❄️ Как здорово и сейчас вспомнить эту добрую традицию 🎀 Делимся с вами нашими творческими идеями! Елочки в эко-стиле сделанные из дерева и мха могут украсить ваш дом или послужить отличным подарком для близких! Ручная работа, цена изделия 950 р. Хорошей Вам предновогодней недели 🛍🎊 #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеидеи#новыйгод2020#авенир_работы',
+      link: 'https://www.instagram.com/p/B6ag6chCPnJ/',
+    },
+    icon: instagram,
+    image: image18
+  },
+  {
+    id: 12,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго вечера! Подготовка к праздничной ночи идёт полным ходом, а сколько всего ещё нужно успеть! Один из пунктов - украсить дом ёлкой, гирляндой и разноцветными шарами🎄 Наш вариант украшения - деревянная красавица и ее друг снеговик ⛄️ из моховых шаров в окружении зелёных джунглей🌳🌴🌿 #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеидеи',
+      link: 'https://www.instagram.com/p/B6VhrRvizRA/',
+    },
+    icon: instagram,
+    image: image12
+  },
+  {
+    id: 15,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня, друзья! Такой приятный глазу зеленый цвет! Экологичные деревянные кашпо ручной работы и мягкая подушечка мха. Многообразие форм и оттенков! Нетривиальный подарок для близких 🎁Стоимость изделия 350 р. #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеподелки#авенир_работы',
+      link: 'https://www.instagram.com/p/B6PzI2ID6F9/',
+    },
+    icon: instagram,
+    image: image15
+  },
+  {
+    id: 8,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго понедельника, друзья ✨ До Нового года остается две недели! Самый любимый, самый семейный праздник в году уже подкрадывается к нам! Самое время заняться украшением дома! Смотрим и вдохновляемся 🎄 #озеленение#фитодизайн#живыерастения#цветы#декор#дизайнинтерьера#стабилизированныймох#экостиль#украшения#уходзарастениями#екатеринбург#екатеринбургсегодня#новыйгод#подготовкакновомугоду#новогодниеидеи',
+      link: 'https://www.instagram.com/p/B6Ic7aECfyJ/',
+    },
+    icon: instagram,
+    image: image8
+  },
+  {
+    id: 17,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день, друзья! ☀️ Делимся нашим недавним проектом - логотип компании Фиера, выполненный из стабилизированного мха. Хотели бы сами попробовать сделать композицию из мха? Мы подумываем о проведении мастер-классов!💐 #озеленение#фитодизайн#дизайнинтерьеров#стабилизированныймох#декоративныепанно#панноизмха#декор#ягель#екатеринбургсейчас#екатеринбург#уходзарастениями#авенир_работы',
+      link: 'https://www.instagram.com/p/B6AW5TPCtc_/',
+    },
+    icon: instagram,
+    image: image17
+  },
+  {
+    id: 13,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброе утро! Показываем вам частичку нашего офиса 🌱Роль ограждения рабочего места играет фитостена с автоматической системой полива. Кто угадает - какие растения посажены в фитомодуле?😊 #озеленение#фитодизайн#фитодизайнекб#живаястена#декор#интьерьер#цветыекатеринбург#живыерастениявинтерьере',
+      link: 'https://www.instagram.com/p/B59YpC7C5FX/',
+    },
+    icon: instagram,
+    image: image13
+  },
+  {
+    id: 9,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: ' Желаем Вам прекрасного дня! 🌅 Замечательно, когда руководство заботится о комфорте своих сотрудников. Обустраивая мягкую зону отдыха и дополняя ее живыми растениями, вы создаете свой уголок домашнего уюта в офисе. В нем можно привести мысли в порядок, расслабиться и набраться сил. Стоит ли говорить, что продуктивность сотрудников после этого только возрастает?🌿 #авенир_работы',
+      link: 'https://www.instagram.com/p/B56w9rIjEHV/',
+    },
+    icon: instagram,
+    image: image9
+  },
+  {
+    id: 6,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день, друзья! ✨На фото любимец многих - хризолидокарпус. Когда клиент говорит "хочу пальму" - в 95% случаях это о нем 😊Растение и правда смотрится чрезвычайно стильно! Особенно в комплекте с кашпо @lechuza.ru #авенир_работы',
       link: 'https://google.com',
     },
     icon: instagram,
-    image: Layer_2
+    image: image6
+  },
+  {
+    id: 3,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня! Интерьер в пастельных тонах лаконично дополняется неизменной классикой - сансевиерия и замиокулькас, наши теневыносливые друзья🌱Кашпо @lechuza.ru выбраны в соответствии с цветовой гаммой помещения. Уютный вариант, не правда ли? #авенир_работы',
+      link: 'https://www.instagram.com/p/B51pgnmiu98/',
+    },
+    icon: instagram,
+    image: image3
+  },
+  {
+    id: 5,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня! Последний месяц года - это пора скидок. Порадовать Вас снижением цен решили и мы! ✨ В декабре декоративные панно из стабилизированного мха по цене - 13 тыс. за квадратный метр в имеющейся в наличии палитре, 16 тыс. - в любой палитре по предзаказу! О наличии оттенков рекомендуем узнавать в комментариях.',
+      link: 'https://www.instagram.com/p/B5uXp_tCGfF/',
+    },
+    icon: instagram,
+    image: image5
+  },
+  {
+    id: 11,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброе утро, друзья! 🎉Стабилизированный мох - что это за материал? Рассказываем! В особых сосновых лесах Вы могли видеть сизый ковер мха - мягкий и пушистый. Это и был ягель - исходный материал для нашего декора. Его собирают, обеззараживают и высушивают, затем помещают в специальный раствор глицерина с водой и безопасным красителем. После такой процедуры мох до 10 лет поддерживает декоративность и мягкость #авенир_работы',
+      link: 'https://www.instagram.com/p/B5rYCoeD8Fq/',
+    },
+    icon: instagram,
+    image: image11
+  },
+  {
+    id: 1,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день! Добавим яркости?🎨 Это панно из стабилизированного мха точно привлечет взгляды! Плюсы такого декора - долговечность и полное отсутствие какого-либо ухода, натуральное происхождение материалов и яркий дизайн по вашему выбору! Размер панно 30*30см, стоимость - 2900 р. #авенир_работы',
+      link: 'https://www.instagram.com/p/B5ozeboi-ua/',
+    },
+    icon: instagram,
+    image: image1
+  },
+  {
+    id: 7,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Приветствуем Вас! 🎇Форум 100+ выбрал темой года "Город будущего" и объединил новаторов, реализующих комфортную городскую среду. Идея сверхактуальная! Нам всем необходимо пространство вокруг, способствующее активизации. Ведь город будущего трудно представить без зеленых насаждений, не так ли?🌿',
+      link: 'https://www.instagram.com/p/B5mQDFnCQIn/',
+    },
+    icon: instagram,
+    image: image7
+  },
+  {
+    id: 4,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день, друзья! ✨ Этот год был очень насыщенным для нас, и мы делимся с Вами теми событиями, в которых нам посчастливилось принять участие! Итак: Форум 100+, компания была участником, выступала с собственным стендом, а также изготовила логотип форума из стабилизированного мха. Результатом делимся с Вами! #авенир_работы',
+      link: 'https://www.instagram.com/p/B5kM3QaCEmN/',
+    },
+    icon: instagram,
+    image: image4
+  },
+  {
+    id: 52,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня, друзья! Как размножать растения дома? В природе растения могут размножаться с участием полового процесса и без участия (вегетативно). Вегетативный способ размножения возможен за счет уникальной особенности - регенерации. Представьте, растения могут регенерировать до 90% своего тела! Так, отрезанный лист даст новую корневую систему, а затем и новые побеги. Это несложный способ обрести нового зеленого любимца!',
+      link: 'https://www.instagram.com/p/BremEoClHdL/',
+    },
+    icon: instagram,
+    image: image52
+  },
+  {
+    id: 53,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день! Любите ли Вы фикусы так, как любим их мы? Штамбовые фикусы Бенджамина - это всегда выигрышный вариант для озеленения, пожалуй, любого пространства. Эти красавцы с пышной кроной нуждаются в достаточном освещении и обильном поливе. В летний период подойдут для украшения уличной веранды.',
+      link: 'https://www.instagram.com/p/Brek8PWF0tH/',
+    },
+    icon: instagram,
+    image: image53
+  },
+  {
+    id: 54,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня, друзья! Заглянем с Вами в закулисье цветочных баз Нидерландов. Фото по нашей просьбе пришло от поставщика, с которым мы сотрудничаем продолжительное время. Специальный автопогрузчик необходим для перемещения столь больших кашпо.',
+      link: 'https://www.instagram.com/p/Bref7RclX2e/',
+    },
+    icon: instagram,
+    image: image54
+  },
+  {
+    id: 55,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день! Фото от нашего любимого поставщика. Фикусы-крупномеры для своей транспортировки требуют слаженной работы целой команды профессионалов. А как Вы думаете, сколько времени уходит на выращивание растения таких размеров?',
+      link: 'https://www.instagram.com/p/Bref63PlMJm/',
+    },
+    icon: instagram,
+    image: image55
+  },
+  {
+    id: 56,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Стрелиция - королевский цветок, экзотическая красавица. Доводилось ли вам видеть ее цветение? Не иначе, как "райская птица" - соцветие из желто-голубых цветов, напоминает птичью головку с острым клювом и расположено на высоком и крепком цветоносе. В домашних условиях совсем не капризна, но очень любит ежедневные опрыскивания.',
+      link: 'https://www.instagram.com/p/Bref5f9lqqV/',
+    },
+    icon: instagram,
+    image: image56
+  },
+  {
+    id: 57,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Доброго дня! Почему мы заказываем растения напрямую из Нидерландов? - На сегодняшний день Нидерланды остаются абсолютным мировым лидером по продаже цветов. Именно в этой стране ежедневно совершаются миллионные сделки по купле-продаже партий цветов в национальных масштабах. Это не значит, что все виды растений выращиваются в пределах страны. Многие поставляют из других частей света по экономическим соображениям. Однако, продукция голландских поставщиков всегда отличается высочайшим качеством здоровья и декоративности каждого экзепляра.',
+      link: 'https://www.instagram.com/p/Bref5CflzHX/',
+    },
+    icon: instagram,
+    image: image57
+  },
+  {
+    id: 58,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день! Не секрет, что все растения любят хорошее освещение. К особенно светолюбивым растениям можно отнести фикусы. Они будут радовать вас пышным наращиванием новых листьев только при освещенности в 1000 Лк и выше. Увидели, что после пересадки листья активно осыпаются? - Смело переносите питомца к окну, это поможет ему оправиться и нарастить новую зеленую массу.',
+      link: 'https://www.instagram.com/p/BrW9iR4lJto/',
+    },
+    icon: instagram,
+    image: image58
+  },
+  {
+    id: 32,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Растения в фитостене находятся в условиях, близких к гидропонике, то есть помещены в ячейки модуля без какого-либо грунта. Сохранять влажную среду вокруг корневой системы им помогает мох сфагнум, который обладает бактерицидными свойствами. Интересный факт: во время войны солдаты использовали сфагнум для перевязки ран. А Вы знали?',
+      link: 'https://www.instagram.com/p/BqKHiPnl8Fm/',
+    },
+    icon: instagram,
+    image: image32
+  },
+  {
+    id: 49,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Фитостена — картина из живых растений, элемент интерьера, вертикальная панель, являющаяся опорой для многослойного материала, в карманы которого помещаются растения. Используется архитекторами, проектировщиками и дизайнерами при оформлении различных помещений. #озеление #авенир #домконтор #фитостена',
+      link: 'https://www.instagram.com/p/BqEcbygFgzk/',
+    },
+    icon: instagram,
+    image: image49
+  },
+  {
+    id: 61,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Кашпо Lechuza оснащены уникальной запатентованной системой автополива, которая позволяет не поливать комнатные растения до 12 недель. Это очень удобно, особенно когда вы уезжаете в командировку, отпуск или оставляете свои домашние растения на длительный период без присмотра. #озеленение #фитодизайн #горшки',
+      link: 'https://www.instagram.com/p/Bp6c9OIFQb2/',
+    },
+    icon: instagram,
+    image: image61
+  },
+  {
+    id: 60,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день! Транспортировка растений для нас - отлаженный процесс. Так, в зимний период при транспортировке мы заботимся, чтобы каждый лист ваших зеленых любимцев был спрятан от холода.',
+      link: 'https://www.instagram.com/p/BpG_CQsFoMX/',
+    },
+    icon: instagram,
+    image: image60
+  },
+  {
+    id: 63,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Цикас станет вашим самым благодарным зеленым питомцем. Кстати, второе название растения - саговник, и это один из древнейших видов на Земле!',
+      link: 'https://www.instagram.com/p/BpG-_RTFrk_/',
+    },
+    icon: instagram,
+    image: image63
+  },
+  {
+    id: 64,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: ' Зеленая стена - это уже тренд. Вертикальный фитомодуль с живыми растениями неизменно станет центром дома или офиса, привлекая внимание гостей. Плюсы такого озеленения - минимум ухода, максимум красоты.',
+      link: 'https://www.instagram.com/p/BpG-8tlFz4l/',
+    },
+    icon: instagram,
+    image: image64
+  },
+  {
+    id: 67,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день, друзья! Наши зарубежные партнеры очень бережно относятся к транспортировке крупномерных растений и мы полагаемся на их многолетний опыт.',
+      link: 'https://www.instagram.com/p/BpG-16ilfoe/',
+    },
+    icon: instagram,
+    image: image65
+  },
+  {
+    id: 66,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: 'Добрый день, друзья! Антуриумы называют мужским растением, так как цветок символизирует мужское начало. Так или иначе росшкошные антуриумы точно привнесут элегантность в ваш дом.',
+      link: 'https://google.com',
+    },
+    icon: instagram,
+    image: image66
+  },
+  {
+    id: 68,
+    title: 'avenir_fito',
+    description: 'ui/ux design',
+    moreInfo: {
+      title: 'avenir_fito',
+      description: ' Дизайн в стиле Лофт Друзья, недавно с нами поделились мнением, что растения и Лофт несовместимы. Индустриальный стиль гармонично смотрится без зелёных элементов. Нам интересно, согласны ли Вы с этим замечанием? Какие растения подошли бы к такому интерьеру по вашему? P.S. На фото элемент стены офисного пространства нашего клиента и очаровательный замиокулькас в кашпо @lechuza.ru', 
+      link: 'https://www.instagram.com/p/B73GnmyoPTn/',
+    },
+    icon: instagram,
+    image: image28
   },
 ]

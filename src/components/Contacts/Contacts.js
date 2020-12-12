@@ -7,6 +7,32 @@ import mail from '../../assets/contacts/mail.png'
 import './Contacts.css'
 
 export const Contacts = () => {
+  const [name, setName] = React.useState('')
+  const [email, setEmail] = React.useState('')
+  const [message, setMessage] = React.useState('')
+
+  const submitRequest = async (event) => {
+    event.preventDefault()
+    console.log({ name, email, message })
+
+    const response = await fetch('/messages', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json'
+      },
+      body: JSON.stringify({ name, email, message })
+    })
+
+    const resData = await response.json()
+    if (resData.status === 'success') {
+      alert('Message Sent!')
+      this.resetForm()
+    } 
+    if (resData.status === 'fail') {
+      alert('Message failed to send')
+    }
+  }
+
   return (
     <section className="section section__contacts">
       <div className="section__header white__color">
@@ -50,13 +76,41 @@ export const Contacts = () => {
 
           </div>
 
-          <form className="contacts__form">
+          <form onSubmit={submitRequest} className="contacts__form">
             <div className="contacts__person">
-              <input placeholder="Ваше имя" type="text" className="contact__name" />
-              <input placeholder="Ваш email" type="email" className="contact__mail" />
+              <label htmlFor="Name"></label>
+              <input 
+                onChange={event => setName(event.target.value)} 
+                value={name} 
+                placeholder="Ваше имя" 
+                name="name" 
+                type="text" 
+                className="contact__name" 
+                required 
+              />
+              <label htmlFor="Email"></label>
+              <input 
+                onChange={event => setEmail(event.target.value)} 
+                value={email} 
+                placeholder="Ваш email" 
+                name="email" 
+                type="email" 
+                className="contact__mail" 
+                required 
+              />
             </div>
             <div>
-              <textarea className="contacts__msg" placeholder="Напишите нам" name="" id="" />
+              <label htmlFor="message"></label>
+              <textarea 
+                onChange={event => setMessage(event.target.value)} 
+                type="text" 
+                name="message" 
+                value={message} 
+                className="contacts__msg" 
+                placeholder="Напишите нам" 
+                id="" 
+                required 
+              />
             </div>
 
             <button type="submit" className="contacts__btn">SEND</button>
