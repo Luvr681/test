@@ -10,27 +10,30 @@ export const Contacts = () => {
   const [name, setName] = React.useState('')
   const [email, setEmail] = React.useState('')
   const [message, setMessage] = React.useState('')
+  const [data, setData] = React.useState({})
 
-  const submitRequest = async (event) => {
-    event.preventDefault()
-    console.log({ name, email, message })
-
-    const response = await fetch('/messages', {
-      method: 'POST',
+  async function postData(url = '', data = {}) {
+    const response = await fetch(url, {
+      method: 'POST', 
+      mode: 'cors',
+      cache: 'no-cache', 
+      credentials: 'same-origin', 
       headers: {
-        'Content-type': 'application/json'
+        'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ name, email, message })
-    })
+      redirect: 'follow', 
+      referrerPolicy: 'no-referrer', 
+      body: JSON.stringify(data) 
+    });
+    return response.json(); 
+  }
 
-    const resData = await response.json()
-    if (resData.status === 'success') {
-      alert('Message Sent!')
-      this.resetForm()
-    } 
-    if (resData.status === 'fail') {
-      alert('Message failed to send')
-    }
+  const submitRequest = (e) => {
+    e.preventDefault()
+    setData({ name, email, message })    
+    postData('http://localhost:3000/contacts', data)
+      .then(answer => JSON.parse(answer))
+      .then(answer => console.log(answer))
   }
 
   return (

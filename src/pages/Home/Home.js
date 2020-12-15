@@ -10,6 +10,7 @@ import { Works } from '../../components/Works/Works'
 export const Home = () => {
   const [scrollHidden, setScrollHidden] = useState(false)
   document.body.className = scrollHidden ? 'scroll__hidden' : ''
+
   return (
     <div className="home">
       <Header />

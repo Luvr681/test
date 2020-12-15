@@ -15,9 +15,10 @@
 	top: 0;
 	left: 0;
 	background: url('../../assets/0036.jpg') center no-repeat;
+	background-size: cover;
 	opacity: 0.6;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 }
 
 .intro__inner {

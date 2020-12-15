@@ -1,4 +1,7 @@
+import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+
+import top from './assets/to__top.png'
 
 import { Home } from './pages/Home/Home'
 import { Catalog } from './pages/Catalog/Catalog'
@@ -13,9 +16,12 @@ import { About } from './pages/About/About'
 import { Politics } from './pages/Politics/Politics'
 import { Cooperation } from './pages/Cooperation/Cooperation'
 
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Route path="/" exact component={Home} />
       <Route path="/catalog" exact component={Catalog} />
       <Route path="/flower__pot" exact component={FlowerPots} />
