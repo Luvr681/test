@@ -9,7 +9,7 @@ import { ModalWindow } from '../../components/ModalWindow/ModalWindow'
 
 import './FlowerPots.css'
 
-export const FlowerPots = () => {
+function FlowerPots() {
   const [modalActive, setModalActive] = React.useState(false)
   const [modalContent, setModalContent] = React.useState({})
   const [scrollHidden, setScrollHidden] = React.useState(false)
@@ -41,3 +41,5 @@ export const FlowerPots = () => {
     </div>
   )
 }
+
+export default FlowerPots

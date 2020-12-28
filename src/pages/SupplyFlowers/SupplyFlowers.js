@@ -8,7 +8,7 @@ import { Footer } from '../../components/Footer/Footer'
 
 import './SupplyFlowers.css'
 
-export const SupplyFlowers = () => {
+function SupplyFlowers() {
   return (
     <>
       <Header />
@@ -38,3 +38,5 @@ export const SupplyFlowers = () => {
     </>
   )
 }
+
+export default SupplyFlowers

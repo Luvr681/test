@@ -7,7 +7,7 @@ import { Header } from '../../components/Header/Header'
 import { Examples } from '../../components/Examples/Examples'
 import { Works } from '../../components/Works/Works'
 
-export const Home = () => {
+function Home() {
   const [scrollHidden, setScrollHidden] = useState(false)
   document.body.className = scrollHidden ? 'scroll__hidden' : ''
 
@@ -22,3 +22,5 @@ export const Home = () => {
     </div>
   )
 }
+
+export default Home

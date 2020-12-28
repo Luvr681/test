@@ -6,7 +6,7 @@ import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import { CooperationCategories } from '../../components/CooperationCategories/CooperationCategories'
 
-export const Cooperation = () => {
+function Cooperation() {
   return (
     <>
       <Header />
@@ -27,3 +27,5 @@ export const Cooperation = () => {
     </>
   )
 }
+
+export default Cooperation

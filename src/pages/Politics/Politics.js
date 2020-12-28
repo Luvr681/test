@@ -7,7 +7,7 @@ import { PoliticsContent } from '../../components/PoliticsContent/PoliticsConten
 
 import './Politics.css'
 
-export const Politics = () => {
+function Politics() {
   return (
     <>
       <Header />
@@ -31,3 +31,5 @@ export const Politics = () => {
     </>
   )
 }
+
+export default Politics

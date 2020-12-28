@@ -8,7 +8,7 @@ import Slider from '../../components/Slider/Slider'
 
 import './GardenInside.css'
 
-export const GardenInside = () => {
+function GardenInside() {
   return (
     <>
       <Header />
@@ -26,3 +26,5 @@ export const GardenInside = () => {
     </>
   )
 }
+
+export default GardenInside

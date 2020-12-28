@@ -5,7 +5,7 @@ import { CatalogProjects } from '../../components/CatalogProjects/CatalogProject
 import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 
-export const Catalog = () => {
+function Catalog() {
   return (
     <>
       <Header />
@@ -14,3 +14,5 @@ export const Catalog = () => {
     </>
   )
 }
+
+export default Catalog

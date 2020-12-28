@@ -11,7 +11,7 @@ import { ModalWindow } from '../../components/ModalWindow/ModalWindow'
 
 import './PlantCare.css'
 
-export const PlantCare = () => {
+function PlantCare() {
   const [modalActive, setModalActive] = React.useState(false)
   const [modalContent, setModalContent] = React.useState({})
   const [scrollHidden, setScrollHidden] = React.useState(false)
@@ -33,3 +33,5 @@ export const PlantCare = () => {
     </div>
   )
 }
+
+export default PlantCare

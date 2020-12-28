@@ -6,7 +6,7 @@ import { Footer } from '../../components/Footer/Footer'
 
 import './About.css'
 
-export const About = () => { 
+function About() { 
   return (
     <>
       <Header />
@@ -23,3 +23,5 @@ export const About = () => {
     </>
   )
 }
+
+export default About;

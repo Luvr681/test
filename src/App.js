@@ -1,43 +1,63 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import { Home } from './pages/Home/Home'
-import { Catalog } from './pages/Catalog/Catalog'
-import { FlowerPots } from './pages/FlowerPots/FlowerPots'
-import { GardenInside } from './pages/GardenInside/GardenInside'
-import { GreenWalls } from './pages/GreenWalls/GreenWalls'
-import { PlantWall } from './pages/PlantWall/PlantWall'
-import { SupplyFlowers } from './pages/SupplyFlowers/SupplyFlowers'
-import { PlantCare } from './pages/PlantCare/PlantCare'
-import { FeedBack } from './pages/FeedBack/FeedBack'
-import { About } from './pages/About/About'
-import { Politics } from './pages/Politics/Politics'
-import { Cooperation } from './pages/Cooperation/Cooperation'
-import { ButtonToTheTop } from './components/ButtonToTheTop/ButtonToTheTop'
 
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Spinner from './components/Spinner/Spinner'
+
+const Home = React.lazy(() => import('./pages/Home/Home'))
+const About = React.lazy(() => import('./pages/About/About'))
+const Catalog = React.lazy(() => import('./pages/Catalog/Catalog'))
+const FlowerPots = React.lazy(() => import('./pages/FlowerPots/FlowerPots'))
+const GardenInside = React.lazy(() => import('./pages/GardenInside/GardenInside'))
+const GreenWalls = React.lazy(() => import('./pages/GreenWalls/GreenWalls'))
+const PlantWall = React.lazy(() => import('./pages/PlantWall/PlantWall'))
+const SupplyFlowers = React.lazy(() => import('./pages/SupplyFlowers/SupplyFlowers'))
+const PlantCare = React.lazy(() => import('./pages/PlantCare/PlantCare'))
+const FeedBack = React.lazy(() => import('./pages/FeedBack/FeedBack'))
+const Politics = React.lazy(() => import('./pages/Politics/Politics'))
+const Cooperation = React.lazy(() => import('./pages/Cooperation/Cooperation'))
 
 function App() {
-  const toTheTop = () => {
-    document.body.scroll({top: 0, left: 0, behavior: 'smooth' })
-  }
-
   return (
     <Router>
       <ScrollToTop>
-        <Route path="/" exact component={Home} />
-        <Route path="/catalog" exact component={Catalog} />
-        <Route path="/flower__pot" exact component={FlowerPots} />
-        <Route path="/garden__inside" exact component={GardenInside} />
-        <Route path="/green__walls" exact component={GreenWalls} />
-        <Route path="/plant__wall" exact component={PlantWall} />
-        <Route path="/supply__flowers" exact component={SupplyFlowers} />
-        <Route path="/plant__care" exact component={PlantCare} />
-        <Route path="/contacts" exact component={FeedBack} />
-        <Route path="/about-us" exact component={About} />
-        <Route path="/politics" exact component={Politics} />
-        <Route path="/cooperation" exact component={Cooperation} />
-        <ButtonToTheTop toTheTop={toTheTop} />
+        <Suspense fallback={<Spinner />}>
+          <Route path="/" exact component={Home} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/catalog" exact component={Catalog} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/flower__pot" exact component={FlowerPots} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/garden__inside" exact component={GardenInside} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/green__walls" exact component={GreenWalls} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/plant__wall" exact component={PlantWall} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/supply__flowers" exact component={SupplyFlowers} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/plant__care" exact component={PlantCare} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/contacts" exact component={FeedBack} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/about-us" exact component={About} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/politics" exact component={Politics} />
+        </Suspense>
+        <Suspense fallback={<Spinner />}>
+          <Route path="/cooperation" exact component={Cooperation} />
+        </Suspense>
       </ScrollToTop>
     </Router>  
   )

@@ -5,7 +5,7 @@ import { Header } from '../../components/Header/Header'
 import { Footer } from '../../components/Footer/Footer'
 import { CatalogProjects } from '../../components/CatalogProjects/CatalogProjects'
 
-export const GreenWalls = () => {
+function GreenWalls() {
   return (
     <>
       <Header />
@@ -14,3 +14,5 @@ export const GreenWalls = () => {
     </>
   )
 }
+
+export default GreenWalls
