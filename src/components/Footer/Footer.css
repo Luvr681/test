@@ -1,9 +1,16 @@
 .footer {
-	padding: 10px;
 	text-align: center;
-
 	color: #212121;
 	font-family: Roboto;
 	font-size: 20px;
 	font-weight: 700;
+	display: flex;
+	align-items: center;
+}
+
+.bottom__footer {
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding: 10px;
 }

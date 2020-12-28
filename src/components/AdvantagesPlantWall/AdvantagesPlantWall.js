@@ -4,7 +4,7 @@ import { Advantage } from './Advantage/Advantage'
 
 import './Advantages.css'
 
-export const AdvantagesPlantWall = ({ advantages }) => {
+export const AdvantagesPlantWall = React.memo(({ advantages }) => {
   return (
       <div className='section gold'>
       <div className="container">
@@ -29,4 +29,4 @@ export const AdvantagesPlantWall = ({ advantages }) => {
       </div>
     </div>
   )
-}
+})

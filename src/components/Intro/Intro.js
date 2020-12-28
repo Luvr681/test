@@ -10,12 +10,12 @@ export const Intro = () => {
       <div className="intro__bg"></div>
         <div className="intro__inner">
           <h1 className="intro__title">Растения, кашпо,  сервисный уход</h1>
-          <h3 className="intro__subtitle">Very suitable to support all web development projects</h3>
+          <h3 className="intro__subtitle">Делаем дома и офисы уютными</h3>
 
 
           <div className="intro__get__started">
-            <Link to="/" className="intro__btn">OUR SERVICES</Link>
-            <Link to="/" className="intro__btn">HIRE IS NOW</Link>
+            <Link to="/catalog" className="intro__btn">КАТАЛОГ</Link>
+            <Link to="/contacts" className="intro__btn">КОНТАКТЫ</Link>
           </div>
 
         </div>

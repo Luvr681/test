@@ -100,13 +100,26 @@ body.scroll__hidden {
 }
 
 /*About=================================*/
+.section.about {
+  padding-top: 100px;
+}
+
 .section.about .section__header {
   margin-bottom: 10px;
+  max-width: 80%;
+}
+
+.section.about .section__title {
+  color: #CFA95E;
 }
 
 /*Works=================================*/
 .section.works {
   padding-bottom: 30px;
+}
+
+.section.works .section__header {
+  margin-bottom: 60px;
 }
 
 

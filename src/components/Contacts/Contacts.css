@@ -3,21 +3,27 @@
 }
 
 .contacts__inner {
+	vertical-align: top;
 }
 
 .contacts__outs {
 	width: 100%;
 	min-width: 1000px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: top;
+	justify-content: space-between;
 	text-align: center;
 	margin: 0 auto;
 }
 
 .contacts__out {
+/*	max-width: 30%;*/
 	text-align: center;
-	margin-right: 150px;
+	margin-right: 50px;
+}
+
+.contacts__out:nth-child(1) {
+	margin-right: 5px;
 }
 
 .contacts__out:last-child {

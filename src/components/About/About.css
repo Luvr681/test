@@ -1,19 +1,19 @@
 /*About======================================================*/
 .about {
-/*	width: 100%;*/
-	max-width: 80%;
+	max-width: 90%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	vertical-align: top;
 	justify-content: space-between;
 	margin: 0 auto;
 }
 
 .about__item {
 	max-width: 30%;
-/*	max-width: 550px;*/
 	text-align: center;
-	margin-right: 30px;
+	vertical-align: top;
+/*	margin-right: 30px;*/
 }
 
 .about__item:last-child {
@@ -37,7 +37,8 @@
 }
 
 .about__img  {
-	max-width: 62px;
+	width: 62px;
+	height: 62px;
 	margin: 62px;
 }
 

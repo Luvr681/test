@@ -5,11 +5,6 @@ export const Example = ({ example, number }) => {
   return (
 
     <section className={`section examples${number}`}>
-      <div className="section__header">
-        <h2 className="section__title">Contact Us</h2>
-        <p className="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-      </div>
-{/*      <div className="container">*/}
         <div>
 
         <div className={`example__inner`}>

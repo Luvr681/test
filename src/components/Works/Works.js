@@ -30,8 +30,8 @@ export const Works = ({ setHidden }) => {
     <>
   	<section className="section works">
       <div className="section__header">
-        <h2 className="section__title">Latest Works</h2>
-        <p className="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        <h2 className="section__title">Наши работы</h2>
+        <p className="section__subtitle">Мы не скрываем примеры своих работ и считаем, что клиент сам знает, что ему нужно</p>
       </div>
 
       <div className="container">
@@ -39,16 +39,16 @@ export const Works = ({ setHidden }) => {
 
           <div className="works__categories">
             <div className="works__category">
-              <Link to="/" className="works__btn">ALL</Link>
+              <Link to="/" className="works__btn">Все</Link>
             </div>
             <div className="works__category">
-              <Link to="/" className="works__btn">WEB DESIGN</Link>
+              <Link to="/" className="works__btn">Растения</Link>
             </div>
             <div className="works__category">
-              <Link to="/" className="works__btn">UI/UX DESIGN</Link>
+              <Link to="/" className="works__btn">Мох</Link>
             </div>
             <div className="works__category">
-              <Link to="/" className="works__btn">MOCKUPS</Link>
+              <Link to="/" className="works__btn">Цветы</Link>
             </div>
           </div>
 

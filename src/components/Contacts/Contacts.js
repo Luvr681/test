@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios'
 
 import placeholder from '../../assets/contacts/placeholder.png'
 import smartphone from '../../assets/contacts/smartphone.png'
@@ -12,28 +13,16 @@ export const Contacts = () => {
   const [message, setMessage] = React.useState('')
   const [data, setData] = React.useState({})
 
-  async function postData(url = '', data = {}) {
-    const response = await fetch(url, {
-      method: 'POST', 
-      mode: 'cors',
-      cache: 'no-cache', 
-      credentials: 'same-origin', 
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      redirect: 'follow', 
-      referrerPolicy: 'no-referrer', 
-      body: JSON.stringify(data) 
-    });
-    return response.json(); 
-  }
-
-  const submitRequest = (e) => {
-    e.preventDefault()
-    setData({ name, email, message })    
-    postData('http://localhost:3000/contacts', data)
-      .then(answer => JSON.parse(answer))
-      .then(answer => console.log(answer))
+  const submitHandler = (event) => {
+    event.preventDefault()
+    setData({ name, email, message })
+    axios.post('http://localhost:5000', data)
+      .then(response => {
+        console.log(response)
+      })
+      .catch(error => {
+        console.log(error)
+      })
   }
 
   return (
@@ -52,8 +41,8 @@ export const Contacts = () => {
                 <img className="contact__icon" src={placeholder} alt="" />
               </div>
               <div className="contact__info">
-                <p>Nobinagar savar,Dhaka</p>
-                <p>Bangladesh</p>
+                <p>ул. Малышева 51 г.Екатеринбург</p>
+                <p>Свердловская область Россия</p>
               </div>
             </div>
 
@@ -62,8 +51,8 @@ export const Contacts = () => {
                 <img className="contact__icon" src={smartphone} alt="" />
               </div>
               <div className="contact__info">
-                <p>+8801743331996</p>
-                <p>+8801928737807</p>
+                <p>+7 (343) 385-58-39</p>
+{/*                <p>+8801928737807</p>*/}
               </div>
             </div>
 
@@ -72,14 +61,14 @@ export const Contacts = () => {
                 <img className="contact__icon" src={mail} alt="" />
               </div>
               <div className="contact__info">
-                <p>quickmasud@gmail.com</p>
-                <p>quickmasud@yahoo.com</p>
+                <p>vogarus@gmail.com</p>
+ {/*               <p>quickmasud@yahoo.com</p>*/}
               </div>
             </div>
 
           </div>
 
-          <form onSubmit={submitRequest} className="contacts__form">
+          <form onSubmit={submitHandler} className="contacts__form">
             <div className="contacts__person">
               <label htmlFor="Name"></label>
               <input 
@@ -116,7 +105,7 @@ export const Contacts = () => {
               />
             </div>
 
-            <button type="submit" className="contacts__btn">SEND</button>
+            <button onClick={() => setData({ name, email, message })} type="submit" className="contacts__btn">SEND</button>
           </form>
 
         </div>
